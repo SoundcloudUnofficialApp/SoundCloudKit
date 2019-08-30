@@ -7,1411 +7,1250 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6736D01F1B86D32600CCDD80 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736D01E1B86D32600CCDD80 /* APIClient.swift */; };
-		674293941EB9BAD300E95148 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674293931EB9BAD300E95148 /* StringExtension.swift */; };
-		674293951EB9BAD300E95148 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674293931EB9BAD300E95148 /* StringExtension.swift */; };
-		674293961EB9BAD300E95148 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674293931EB9BAD300E95148 /* StringExtension.swift */; };
-		674293971EB9BAD300E95148 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674293931EB9BAD300E95148 /* StringExtension.swift */; };
-		677739AE1ABC541200E7BC8E /* SoundCloudKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739A41ABC488F00E7BC8E /* SoundCloudKitTests.swift */; };
-		677739C31ABD7AEF00E7BC8E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C11ABD7AEF00E7BC8E /* Alamofire.framework */; };
-		677739C41ABD7AEF00E7BC8E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C21ABD7AEF00E7BC8E /* SwiftyJSON.framework */; };
-		677739C81ABD7B3000E7BC8E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C61ABD7B3000E7BC8E /* Alamofire.framework */; };
-		677739C91ABD7B3000E7BC8E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C71ABD7B3000E7BC8E /* SwiftyJSON.framework */; };
-		677739D21ABD898B00E7BC8E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739D01ABD898B00E7BC8E /* User.swift */; };
-		677739DA1ABD8AA200E7BC8E /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739D81ABD8AA200E7BC8E /* user.json */; };
-		677739DD1ABD8B4D00E7BC8E /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739DB1ABD8B4D00E7BC8E /* Track.swift */; };
-		677739E01ABD8B8300E7BC8E /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739DE1ABD8B8300E7BC8E /* track.json */; };
-		677739E31ABD9F7400E7BC8E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739E11ABD9F7400E7BC8E /* App.swift */; };
-		677739E71ABDA7F300E7BC8E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C21ABD7AEF00E7BC8E /* SwiftyJSON.framework */; };
-		677739EB1ABDA7F300E7BC8E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739E91ABDA7F300E7BC8E /* Quick.framework */; };
-		677739ED1ABDAA5D00E7BC8E /* SpecHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739EC1ABDAA5D00E7BC8E /* SpecHelper.swift */; };
-		677739EE1ABDAA5D00E7BC8E /* SpecHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739EC1ABDAA5D00E7BC8E /* SpecHelper.swift */; };
-		677739F21ABDADCF00E7BC8E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C71ABD7B3000E7BC8E /* SwiftyJSON.framework */; };
-		677739F51ABDADD000E7BC8E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739F31ABDADD000E7BC8E /* Nimble.framework */; };
-		677739F61ABDADD000E7BC8E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739F41ABDADD000E7BC8E /* Quick.framework */; };
-		677739FB1ABDAF2100E7BC8E /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739C71ABD7B3000E7BC8E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		677739FC1ABDAF2100E7BC8E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739C61ABD7B3000E7BC8E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		677739FD1ABDAF2100E7BC8E /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739F41ABDADD000E7BC8E /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		677739FE1ABDAF2100E7BC8E /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739F31ABDADD000E7BC8E /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		677739FF1ABDAFB200E7BC8E /* SoundCloudKit_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739A31ABC488F00E7BC8E /* SoundCloudKit_MacTests.swift */; };
-		67773A001ABDB00100E7BC8E /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739DE1ABD8B8300E7BC8E /* track.json */; };
-		67773A011ABDB00100E7BC8E /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739D81ABD8AA200E7BC8E /* user.json */; };
-		67773A051ABDB5A800E7BC8E /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739DE1ABD8B8300E7BC8E /* track.json */; };
-		67773A061ABDB5A800E7BC8E /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739D81ABD8AA200E7BC8E /* user.json */; };
-		67773A081ABDB5BF00E7BC8E /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739C21ABD7AEF00E7BC8E /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67773A091ABDB5BF00E7BC8E /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739C11ABD7AEF00E7BC8E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67773A0A1ABDB5BF00E7BC8E /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739E91ABDA7F300E7BC8E /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67773A0B1ABDB5BF00E7BC8E /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 677739E81ABDA7F300E7BC8E /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67773A0C1ABDB73000E7BC8E /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739DB1ABD8B4D00E7BC8E /* Track.swift */; };
-		67773A0D1ABDB73000E7BC8E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739D01ABD898B00E7BC8E /* User.swift */; };
-		67773A0E1ABDB73000E7BC8E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739E11ABD9F7400E7BC8E /* App.swift */; };
-		67773A101ABE5F7100E7BC8E /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A0F1ABE5F7100E7BC8E /* UserSpec.swift */; };
-		67773A111ABE5F7100E7BC8E /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A0F1ABE5F7100E7BC8E /* UserSpec.swift */; };
-		67773A131ABE602300E7BC8E /* TrackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A121ABE602300E7BC8E /* TrackSpec.swift */; };
-		67773A141ABE602300E7BC8E /* TrackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A121ABE602300E7BC8E /* TrackSpec.swift */; };
-		67773A161ABE7CC000E7BC8E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A151ABE7CC000E7BC8E /* Playlist.swift */; };
-		67773A171ABE7CC000E7BC8E /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A151ABE7CC000E7BC8E /* Playlist.swift */; };
-		67773A1F1ABEA8CB00E7BC8E /* playlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 67773A1E1ABEA8CB00E7BC8E /* playlist.json */; };
-		67773A201ABEA8CB00E7BC8E /* playlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 67773A1E1ABEA8CB00E7BC8E /* playlist.json */; };
-		67773A221ABEA98A00E7BC8E /* PlaylistSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A211ABEA98A00E7BC8E /* PlaylistSpec.swift */; };
-		67773A231ABEA98A00E7BC8E /* PlaylistSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A211ABEA98A00E7BC8E /* PlaylistSpec.swift */; };
-		6778C8621B87493500ED627F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6778C8611B87493500ED627F /* Comment.swift */; };
-		67916DAD1BAEB2E8004419B0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C61ABD7B3000E7BC8E /* Alamofire.framework */; };
-		67916DAE1BAEB30F004419B0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739C11ABD7AEF00E7BC8E /* Alamofire.framework */; };
-		67916DAF1BAEB316004419B0 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677739E81ABDA7F300E7BC8E /* Nimble.framework */; };
-		67D41D151B8DCBD30082454F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41D141B8DCBD30082454F /* Activity.swift */; };
-		67E494171BAB0A0000695CA2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736D01E1B86D32600CCDD80 /* APIClient.swift */; };
-		67E494181BAB0A0D00695CA2 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6778C8611B87493500ED627F /* Comment.swift */; };
-		67E494191BAB0A0D00695CA2 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41D141B8DCBD30082454F /* Activity.swift */; };
-		67E5EA3F1DCAC44B001CF873 /* SoundCloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA361DCAC44A001CF873 /* SoundCloudKit.framework */; };
-		67E5EA461DCAC44B001CF873 /* SoundCloudKit-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5EA381DCAC44A001CF873 /* SoundCloudKit-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E5EA561DCAC45C001CF873 /* SoundCloudKit-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5EA541DCAC45C001CF873 /* SoundCloudKit-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E5EA5A1DCAC6AC001CF873 /* SoundCloudKit-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6777399E1ABC487C00E7BC8E /* SoundCloudKit-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E5EA5B1DCAC6B4001CF873 /* SoundCloudKit-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6777399D1ABC487C00E7BC8E /* SoundCloudKit-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67E5EA5C1DCAC843001CF873 /* SoundCloudKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67F59C231AB9C8490018DA25 /* SoundCloudKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA5D1DCAC9CE001CF873 /* SoundCloudKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67F59BEA1AB9C5960018DA25 /* SoundCloudKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA5E1DCAC9DF001CF873 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739DB1ABD8B4D00E7BC8E /* Track.swift */; };
-		67E5EA5F1DCAC9DF001CF873 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739D01ABD898B00E7BC8E /* User.swift */; };
-		67E5EA601DCAC9DF001CF873 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739E11ABD9F7400E7BC8E /* App.swift */; };
-		67E5EA611DCAC9DF001CF873 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A151ABE7CC000E7BC8E /* Playlist.swift */; };
-		67E5EA621DCAC9DF001CF873 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6778C8611B87493500ED627F /* Comment.swift */; };
-		67E5EA631DCAC9DF001CF873 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41D141B8DCBD30082454F /* Activity.swift */; };
-		67E5EA681DCAC9EB001CF873 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736D01E1B86D32600CCDD80 /* APIClient.swift */; };
-		67E5EA691DCAC9F1001CF873 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736D01E1B86D32600CCDD80 /* APIClient.swift */; };
-		67E5EA6D1DCACA13001CF873 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA6A1DCACA13001CF873 /* Alamofire.framework */; };
-		67E5EA6F1DCACA13001CF873 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA6C1DCACA13001CF873 /* SwiftyJSON.framework */; };
-		67E5EA731DCACA58001CF873 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA711DCACA58001CF873 /* Nimble.framework */; };
-		67E5EA741DCACA58001CF873 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA721DCACA58001CF873 /* Quick.framework */; };
-		67E5EA751DCACA60001CF873 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA6A1DCACA13001CF873 /* Alamofire.framework */; };
-		67E5EA771DCACA60001CF873 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA6C1DCACA13001CF873 /* SwiftyJSON.framework */; };
-		67E5EA781DCACA6D001CF873 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A0F1ABE5F7100E7BC8E /* UserSpec.swift */; };
-		67E5EA791DCACA6D001CF873 /* TrackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A121ABE602300E7BC8E /* TrackSpec.swift */; };
-		67E5EA7A1DCACA6D001CF873 /* SpecHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739EC1ABDAA5D00E7BC8E /* SpecHelper.swift */; };
-		67E5EA7B1DCACA6D001CF873 /* PlaylistSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A211ABEA98A00E7BC8E /* PlaylistSpec.swift */; };
-		67E5EA7C1DCACA77001CF873 /* playlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 67773A1E1ABEA8CB00E7BC8E /* playlist.json */; };
-		67E5EA7D1DCACA77001CF873 /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739DE1ABD8B8300E7BC8E /* track.json */; };
-		67E5EA7E1DCACA77001CF873 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 677739D81ABD8AA200E7BC8E /* user.json */; };
-		67E5EA801DCACAD0001CF873 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67E5EA711DCACA58001CF873 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA811DCACAD0001CF873 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67E5EA721DCACA58001CF873 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA821DCACAD0001CF873 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67E5EA6A1DCACA13001CF873 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA841DCACAD0001CF873 /* SwiftyJSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67E5EA6C1DCACA13001CF873 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA851DCACADA001CF873 /* SoundCloudKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 67E5EA361DCAC44A001CF873 /* SoundCloudKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		67E5EA861DCACB31001CF873 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739DB1ABD8B4D00E7BC8E /* Track.swift */; };
-		67E5EA871DCACB31001CF873 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739D01ABD898B00E7BC8E /* User.swift */; };
-		67E5EA881DCACB31001CF873 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677739E11ABD9F7400E7BC8E /* App.swift */; };
-		67E5EA891DCACB31001CF873 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67773A151ABE7CC000E7BC8E /* Playlist.swift */; };
-		67E5EA8A1DCACB31001CF873 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6778C8611B87493500ED627F /* Comment.swift */; };
-		67E5EA8B1DCACB31001CF873 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41D141B8DCBD30082454F /* Activity.swift */; };
-		67E5EA8F1DCACB4D001CF873 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA8C1DCACB4D001CF873 /* Alamofire.framework */; };
-		67E5EA911DCACB4D001CF873 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5EA8E1DCACB4D001CF873 /* SwiftyJSON.framework */; };
+		OBJ_101 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* AFError.swift */; };
+		OBJ_102 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Alamofire.swift */; };
+		OBJ_103 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* DispatchQueue+Alamofire.swift */; };
+		OBJ_104 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* MultipartFormData.swift */; };
+		OBJ_105 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* NetworkReachabilityManager.swift */; };
+		OBJ_106 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Notifications.swift */; };
+		OBJ_107 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* ParameterEncoding.swift */; };
+		OBJ_108 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Request.swift */; };
+		OBJ_109 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Response.swift */; };
+		OBJ_110 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ResponseSerialization.swift */; };
+		OBJ_111 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* Result.swift */; };
+		OBJ_112 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* ServerTrustPolicy.swift */; };
+		OBJ_113 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* SessionDelegate.swift */; };
+		OBJ_114 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* SessionManager.swift */; };
+		OBJ_115 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* TaskDelegate.swift */; };
+		OBJ_116 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Timeline.swift */; };
+		OBJ_117 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Validation.swift */; };
+		OBJ_124 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Package.swift */; };
+		OBJ_130 /* Alamofire+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Alamofire+Promise.swift */; };
+		OBJ_132 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
+		OBJ_133 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */; };
+		OBJ_142 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Package.swift */; };
+		OBJ_147 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Box.swift */; };
+		OBJ_148 /* Catchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Catchable.swift */; };
+		OBJ_149 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Configuration.swift */; };
+		OBJ_150 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* CustomStringConvertible.swift */; };
+		OBJ_151 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Error.swift */; };
+		OBJ_152 /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Guarantee.swift */; };
+		OBJ_153 /* LogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* LogEvent.swift */; };
+		OBJ_154 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Promise.swift */; };
+		OBJ_155 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Resolver.swift */; };
+		OBJ_156 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Thenable.swift */; };
+		OBJ_157 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* after.swift */; };
+		OBJ_158 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* firstly.swift */; };
+		OBJ_159 /* hang.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* hang.swift */; };
+		OBJ_160 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* race.swift */; };
+		OBJ_161 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* when.swift */; };
+		OBJ_168 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Package.swift */; };
+		OBJ_174 /* APIClient+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* APIClient+Router.swift */; };
+		OBJ_175 /* APIClient+fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* APIClient+fetch.swift */; };
+		OBJ_176 /* APIClient+track.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* APIClient+track.swift */; };
+		OBJ_177 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* APIClient.swift */; };
+		OBJ_178 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* String+URL.swift */; };
+		OBJ_179 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Activity.swift */; };
+		OBJ_180 /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ActivityList.swift */; };
+		OBJ_181 /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ActivityType.swift */; };
+		OBJ_182 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* App.swift */; };
+		OBJ_183 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Comment.swift */; };
+		OBJ_184 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Playlist.swift */; };
+		OBJ_185 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Track.swift */; };
+		OBJ_186 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* User.swift */; };
+		OBJ_187 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* PlayerVC.swift */; };
+		OBJ_189 /* ASWaveformPlayerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ASWaveformPlayerView::ASWaveformPlayerView::Product" /* ASWaveformPlayerView.framework */; };
+		OBJ_190 /* PMKAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PMKAlamofire::PMKAlamofire::Product" /* PMKAlamofire.framework */; };
+		OBJ_191 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
+		OBJ_192 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */; };
+		OBJ_202 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_87 /* ASWaveformPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ASWaveformPlayerView.swift */; };
+		OBJ_88 /* AudioAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* AudioAnalyser.swift */; };
+		OBJ_95 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		67773A031ABDB09D00E7BC8E /* PBXContainerItemProxy */ = {
+		0CA0D387231D817B009DA968 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67F59BE11AB9C5960018DA25 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67F59C221AB9C8490018DA25;
-			remoteInfo = SoundCloudKitMac;
+			remoteGlobalIDString = "ASWaveformPlayerView::ASWaveformPlayerView";
+			remoteInfo = ASWaveformPlayerView;
 		};
-		67E5EA401DCAC44B001CF873 /* PBXContainerItemProxy */ = {
+		0CA0D388231D817B009DA968 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67F59BE11AB9C5960018DA25 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67E5EA351DCAC44A001CF873;
-			remoteInfo = "SoundCloudKit-tvOS";
+			remoteGlobalIDString = "PMKAlamofire::PMKAlamofire";
+			remoteInfo = PMKAlamofire;
 		};
-		67F59BF71AB9C5970018DA25 /* PBXContainerItemProxy */ = {
+		0CA0D389231D817B009DA968 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67F59BE11AB9C5960018DA25 /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67F59BE91AB9C5960018DA25;
-			remoteInfo = SoundCloudKit;
+			remoteGlobalIDString = "Alamofire::Alamofire";
+			remoteInfo = Alamofire;
+		};
+		0CA0D38A231D817B009DA968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PromiseKit::PromiseKit";
+			remoteInfo = PromiseKit;
+		};
+		0CA0D38B231D817B009DA968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Alamofire::Alamofire";
+			remoteInfo = Alamofire;
+		};
+		0CA0D38C231D817B009DA968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PromiseKit::PromiseKit";
+			remoteInfo = PromiseKit;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		677739F81ABDAE7100E7BC8E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				67E5EA5C1DCAC843001CF873 /* SoundCloudKit.framework in CopyFiles */,
-				677739FB1ABDAF2100E7BC8E /* SwiftyJSON.framework in CopyFiles */,
-				677739FC1ABDAF2100E7BC8E /* Alamofire.framework in CopyFiles */,
-				677739FD1ABDAF2100E7BC8E /* Quick.framework in CopyFiles */,
-				677739FE1ABDAF2100E7BC8E /* Nimble.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67773A071ABDB5B300E7BC8E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				67E5EA5D1DCAC9CE001CF873 /* SoundCloudKit.framework in CopyFiles */,
-				67773A081ABDB5BF00E7BC8E /* SwiftyJSON.framework in CopyFiles */,
-				67773A091ABDB5BF00E7BC8E /* Alamofire.framework in CopyFiles */,
-				67773A0A1ABDB5BF00E7BC8E /* Quick.framework in CopyFiles */,
-				67773A0B1ABDB5BF00E7BC8E /* Nimble.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67E5EA7F1DCACAC2001CF873 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				67E5EA851DCACADA001CF873 /* SoundCloudKit.framework in CopyFiles */,
-				67E5EA801DCACAD0001CF873 /* Nimble.framework in CopyFiles */,
-				67E5EA811DCACAD0001CF873 /* Quick.framework in CopyFiles */,
-				67E5EA821DCACAD0001CF873 /* Alamofire.framework in CopyFiles */,
-				67E5EA841DCACAD0001CF873 /* SwiftyJSON.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		6736D01E1B86D32600CCDD80 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Source/APIClient.swift; sourceTree = SOURCE_ROOT; };
-		674293931EB9BAD300E95148 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = SOURCE_ROOT; };
-		6777399B1ABC487400E7BC8E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
-		6777399D1ABC487C00E7BC8E /* SoundCloudKit-macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SoundCloudKit-macOS.h"; path = "Source/SoundCloudKit-macOS.h"; sourceTree = SOURCE_ROOT; };
-		6777399E1ABC487C00E7BC8E /* SoundCloudKit-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SoundCloudKit-iOS.h"; path = "Source/SoundCloudKit-iOS.h"; sourceTree = SOURCE_ROOT; };
-		677739A11ABC488600E7BC8E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Spec/Info.plist; sourceTree = SOURCE_ROOT; };
-		677739A31ABC488F00E7BC8E /* SoundCloudKit_MacTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundCloudKit_MacTests.swift; path = Spec/SoundCloudKit_MacTests.swift; sourceTree = SOURCE_ROOT; };
-		677739A41ABC488F00E7BC8E /* SoundCloudKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundCloudKitTests.swift; path = Spec/SoundCloudKitTests.swift; sourceTree = SOURCE_ROOT; };
-		677739C11ABD7AEF00E7BC8E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		677739C21ABD7AEF00E7BC8E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		677739C61ABD7B3000E7BC8E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		677739C71ABD7B3000E7BC8E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
-		677739D01ABD898B00E7BC8E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Source/User.swift; sourceTree = SOURCE_ROOT; };
-		677739D81ABD8AA200E7BC8E /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = user.json; path = Fixture/user.json; sourceTree = "<group>"; };
-		677739DB1ABD8B4D00E7BC8E /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Track.swift; path = Source/Track.swift; sourceTree = SOURCE_ROOT; };
-		677739DE1ABD8B8300E7BC8E /* track.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = track.json; path = Fixture/track.json; sourceTree = "<group>"; };
-		677739E11ABD9F7400E7BC8E /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = Source/App.swift; sourceTree = SOURCE_ROOT; };
-		677739E81ABDA7F300E7BC8E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		677739E91ABDA7F300E7BC8E /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		677739EC1ABDAA5D00E7BC8E /* SpecHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecHelper.swift; path = Spec/SpecHelper.swift; sourceTree = SOURCE_ROOT; };
-		677739F31ABDADD000E7BC8E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		677739F41ABDADD000E7BC8E /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		67773A0F1ABE5F7100E7BC8E /* UserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSpec.swift; path = Spec/UserSpec.swift; sourceTree = SOURCE_ROOT; };
-		67773A121ABE602300E7BC8E /* TrackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrackSpec.swift; path = Spec/TrackSpec.swift; sourceTree = SOURCE_ROOT; };
-		67773A151ABE7CC000E7BC8E /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Playlist.swift; path = Source/Playlist.swift; sourceTree = SOURCE_ROOT; };
-		67773A1E1ABEA8CB00E7BC8E /* playlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = playlist.json; path = Fixture/playlist.json; sourceTree = "<group>"; };
-		67773A211ABEA98A00E7BC8E /* PlaylistSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaylistSpec.swift; path = Spec/PlaylistSpec.swift; sourceTree = SOURCE_ROOT; };
-		6778C8611B87493500ED627F /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Source/Comment.swift; sourceTree = SOURCE_ROOT; };
-		678A958E21E737CD007A846C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67D41D141B8DCBD30082454F /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = Source/Activity.swift; sourceTree = SOURCE_ROOT; };
-		67E5EA361DCAC44A001CF873 /* SoundCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E5EA381DCAC44A001CF873 /* SoundCloudKit-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SoundCloudKit-tvOS.h"; path = "Source/SoundCloudKit-tvOS.h"; sourceTree = SOURCE_ROOT; };
-		67E5EA3E1DCAC44A001CF873 /* SoundCloudKit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudKit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E5EA521DCAC45C001CF873 /* SoundCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E5EA541DCAC45C001CF873 /* SoundCloudKit-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SoundCloudKit-watchOS.h"; path = "Source/SoundCloudKit-watchOS.h"; sourceTree = SOURCE_ROOT; };
-		67E5EA6A1DCACA13001CF873 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
-		67E5EA6C1DCACA13001CF873 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/tvOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		67E5EA711DCACA58001CF873 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
-		67E5EA721DCACA58001CF873 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
-		67E5EA8C1DCACB4D001CF873 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
-		67E5EA8E1DCACB4D001CF873 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/watchOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		67F59BEA1AB9C5960018DA25 /* SoundCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F59BF51AB9C5970018DA25 /* SoundCloudKit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudKit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F59C231AB9C8490018DA25 /* SoundCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoundCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F59C2D1AB9C84A0018DA25 /* SoundCloudKit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SoundCloudKit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ASWaveformPlayerView::ASWaveformPlayerView::Product" /* ASWaveformPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ASWaveformPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Alamofire::Alamofire::Product" /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* APIClient+Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Router.swift"; sourceTree = "<group>"; };
+		OBJ_11 /* APIClient+fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+fetch.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* APIClient+track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+track.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		OBJ_15 /* String+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
+		OBJ_17 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		OBJ_18 /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
+		OBJ_19 /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
+		OBJ_20 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		OBJ_24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		OBJ_26 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ASWaveformPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASWaveformPlayerView.swift; sourceTree = "<group>"; };
+		OBJ_32 /* AudioAnalyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalyser.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/bretsko/Projects/SoundCloudKit/.build/checkouts/ASWaveformPlayerView/Package.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/bretsko/Projects/SoundCloudKit/.build/checkouts/PMKAlamofire/Package.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Alamofire+Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+Promise.swift"; sourceTree = "<group>"; };
+		OBJ_38 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/bretsko/Projects/SoundCloudKit/.build/checkouts/PromiseKit/Package.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Catchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catchable.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		OBJ_42 /* CustomStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStringConvertible.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Guarantee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guarantee.swift; sourceTree = "<group>"; };
+		OBJ_45 /* LogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEvent.swift; sourceTree = "<group>"; };
+		OBJ_46 /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Thenable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thenable.swift; sourceTree = "<group>"; };
+		OBJ_49 /* after.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = after.swift; sourceTree = "<group>"; };
+		OBJ_50 /* firstly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstly.swift; sourceTree = "<group>"; };
+		OBJ_51 /* hang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hang.swift; sourceTree = "<group>"; };
+		OBJ_52 /* race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = race.swift; sourceTree = "<group>"; };
+		OBJ_53 /* when.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = when.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/bretsko/Projects/SoundCloudKit/.build/checkouts/Alamofire/Package.swift; sourceTree = "<group>"; };
+		OBJ_56 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		OBJ_57 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		OBJ_58 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		OBJ_59 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		OBJ_61 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		OBJ_62 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_65 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		OBJ_66 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		OBJ_67 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		OBJ_68 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		OBJ_69 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		OBJ_70 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		OBJ_71 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		OBJ_72 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Fixture */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixture; sourceTree = SOURCE_ROOT; };
+		OBJ_80 /* Example */ = {isa = PBXFileReference; lastKnownFileType = text; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_81 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		"PMKAlamofire::PMKAlamofire::Product" /* PMKAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PMKAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PromiseKit::PromiseKit::Product" /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SoundCloudKit::SoundCloudKit::Product" /* SoundCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SoundCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		67E5EA321DCAC44A001CF873 /* Frameworks */ = {
+		OBJ_118 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E5EA6D1DCACA13001CF873 /* Alamofire.framework in Frameworks */,
-				67E5EA6F1DCACA13001CF873 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67E5EA3B1DCAC44A001CF873 /* Frameworks */ = {
+		OBJ_131 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E5EA751DCACA60001CF873 /* Alamofire.framework in Frameworks */,
-				67E5EA771DCACA60001CF873 /* SwiftyJSON.framework in Frameworks */,
-				67E5EA3F1DCAC44B001CF873 /* SoundCloudKit.framework in Frameworks */,
-				67E5EA731DCACA58001CF873 /* Nimble.framework in Frameworks */,
-				67E5EA741DCACA58001CF873 /* Quick.framework in Frameworks */,
+				OBJ_132 /* Alamofire.framework in Frameworks */,
+				OBJ_133 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67E5EA4E1DCAC45C001CF873 /* Frameworks */ = {
+		OBJ_162 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E5EA8F1DCACB4D001CF873 /* Alamofire.framework in Frameworks */,
-				67E5EA911DCACB4D001CF873 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67F59BE61AB9C5960018DA25 /* Frameworks */ = {
+		OBJ_188 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				677739C31ABD7AEF00E7BC8E /* Alamofire.framework in Frameworks */,
-				677739C41ABD7AEF00E7BC8E /* SwiftyJSON.framework in Frameworks */,
+				OBJ_189 /* ASWaveformPlayerView.framework in Frameworks */,
+				OBJ_190 /* PMKAlamofire.framework in Frameworks */,
+				OBJ_191 /* Alamofire.framework in Frameworks */,
+				OBJ_192 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67F59BF21AB9C5970018DA25 /* Frameworks */ = {
+		OBJ_89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				677739EB1ABDA7F300E7BC8E /* Quick.framework in Frameworks */,
-				677739E71ABDA7F300E7BC8E /* SwiftyJSON.framework in Frameworks */,
-				67916DAF1BAEB316004419B0 /* Nimble.framework in Frameworks */,
-				67916DAE1BAEB30F004419B0 /* Alamofire.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59C1F1AB9C8490018DA25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				677739C81ABD7B3000E7BC8E /* Alamofire.framework in Frameworks */,
-				677739C91ABD7B3000E7BC8E /* SwiftyJSON.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59C2A1AB9C84A0018DA25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				677739F51ABDADD000E7BC8E /* Nimble.framework in Frameworks */,
-				677739F61ABDADD000E7BC8E /* Quick.framework in Frameworks */,
-				67916DAD1BAEB2E8004419B0 /* Alamofire.framework in Frameworks */,
-				677739F21ABDADCF00E7BC8E /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		674293981EB9C2CC00E95148 /* watchOS */ = {
+		OBJ_14 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
-				67E5EA8C1DCACB4D001CF873 /* Alamofire.framework */,
-				67E5EA8E1DCACB4D001CF873 /* SwiftyJSON.framework */,
+				OBJ_15 /* String+URL.swift */,
 			);
-			name = watchOS;
+			path = Ext;
 			sourceTree = "<group>";
 		};
-		677739C51ABD7AFC00E7BC8E /* Frameworks */ = {
+		OBJ_16 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				678A958E21E737CD007A846C /* Foundation.framework */,
-				677739FA1ABDAEC900E7BC8E /* iOS */,
-				677739F91ABDAEC300E7BC8E /* Mac */,
-				67E5EA701DCACA23001CF873 /* tvOS */,
-				674293981EB9C2CC00E95148 /* watchOS */,
+				OBJ_17 /* Activity.swift */,
+				OBJ_18 /* ActivityList.swift */,
+				OBJ_19 /* ActivityType.swift */,
+				OBJ_20 /* App.swift */,
+				OBJ_21 /* Comment.swift */,
+				OBJ_22 /* Playlist.swift */,
+				OBJ_23 /* Track.swift */,
+				OBJ_24 /* User.swift */,
 			);
-			name = Frameworks;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		677739D31ABD8A3100E7BC8E /* Fixture */ = {
+		OBJ_25 /* PlayerVC */ = {
 			isa = PBXGroup;
 			children = (
-				67773A1E1ABEA8CB00E7BC8E /* playlist.json */,
-				677739DE1ABD8B8300E7BC8E /* track.json */,
-				677739D81ABD8AA200E7BC8E /* user.json */,
+				OBJ_26 /* PlayerVC.swift */,
 			);
-			name = Fixture;
+			path = PlayerVC;
 			sourceTree = "<group>";
 		};
-		677739F91ABDAEC300E7BC8E /* Mac */ = {
+		OBJ_27 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				677739C71ABD7B3000E7BC8E /* SwiftyJSON.framework */,
-				677739C61ABD7B3000E7BC8E /* Alamofire.framework */,
-				677739F41ABDADD000E7BC8E /* Quick.framework */,
-				677739F31ABDADD000E7BC8E /* Nimble.framework */,
 			);
-			name = Mac;
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_28 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* ASWaveformPlayerView 0.1.4 */,
+				OBJ_34 /* PMKAlamofire 3.2.4 */,
+				OBJ_37 /* PromiseKit 6.11.0 */,
+				OBJ_54 /* Alamofire 4.8.2 */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		677739FA1ABDAEC900E7BC8E /* iOS */ = {
+		OBJ_29 /* ASWaveformPlayerView 0.1.4 */ = {
 			isa = PBXGroup;
 			children = (
-				677739C21ABD7AEF00E7BC8E /* SwiftyJSON.framework */,
-				677739C11ABD7AEF00E7BC8E /* Alamofire.framework */,
-				677739E91ABDA7F300E7BC8E /* Quick.framework */,
-				677739E81ABDA7F300E7BC8E /* Nimble.framework */,
+				OBJ_30 /* ASWaveformPlayerView */,
+				OBJ_33 /* Package.swift */,
 			);
-			name = iOS;
+			name = "ASWaveformPlayerView 0.1.4";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_30 /* ASWaveformPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* ASWaveformPlayerView.swift */,
+				OBJ_32 /* AudioAnalyser.swift */,
+			);
+			name = ASWaveformPlayerView;
+			path = .build/checkouts/ASWaveformPlayerView/Sources/ASWaveformPlayerView;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_34 /* PMKAlamofire 3.2.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* Package.swift */,
+				OBJ_36 /* Alamofire+Promise.swift */,
+			);
+			name = "PMKAlamofire 3.2.4";
+			path = .build/checkouts/PMKAlamofire/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* PromiseKit 6.11.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* Package.swift */,
+				OBJ_39 /* Box.swift */,
+				OBJ_40 /* Catchable.swift */,
+				OBJ_41 /* Configuration.swift */,
+				OBJ_42 /* CustomStringConvertible.swift */,
+				OBJ_43 /* Error.swift */,
+				OBJ_44 /* Guarantee.swift */,
+				OBJ_45 /* LogEvent.swift */,
+				OBJ_46 /* Promise.swift */,
+				OBJ_47 /* Resolver.swift */,
+				OBJ_48 /* Thenable.swift */,
+				OBJ_49 /* after.swift */,
+				OBJ_50 /* firstly.swift */,
+				OBJ_51 /* hang.swift */,
+				OBJ_52 /* race.swift */,
+				OBJ_53 /* when.swift */,
+			);
+			name = "PromiseKit 6.11.0";
+			path = .build/checkouts/PromiseKit/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_27 /* Tests */,
+				OBJ_28 /* Dependencies */,
+				OBJ_73 /* Products */,
+				OBJ_79 /* Fixture */,
+				OBJ_80 /* Example */,
+				OBJ_81 /* README.md */,
+			);
+			name = "";
 			sourceTree = "<group>";
 		};
-		67E5EA701DCACA23001CF873 /* tvOS */ = {
+		OBJ_54 /* Alamofire 4.8.2 */ = {
 			isa = PBXGroup;
 			children = (
-				67E5EA711DCACA58001CF873 /* Nimble.framework */,
-				67E5EA721DCACA58001CF873 /* Quick.framework */,
-				67E5EA6A1DCACA13001CF873 /* Alamofire.framework */,
-				67E5EA6C1DCACA13001CF873 /* SwiftyJSON.framework */,
+				OBJ_55 /* Package.swift */,
+				OBJ_56 /* AFError.swift */,
+				OBJ_57 /* Alamofire.swift */,
+				OBJ_58 /* DispatchQueue+Alamofire.swift */,
+				OBJ_59 /* MultipartFormData.swift */,
+				OBJ_60 /* NetworkReachabilityManager.swift */,
+				OBJ_61 /* Notifications.swift */,
+				OBJ_62 /* ParameterEncoding.swift */,
+				OBJ_63 /* Request.swift */,
+				OBJ_64 /* Response.swift */,
+				OBJ_65 /* ResponseSerialization.swift */,
+				OBJ_66 /* Result.swift */,
+				OBJ_67 /* ServerTrustPolicy.swift */,
+				OBJ_68 /* SessionDelegate.swift */,
+				OBJ_69 /* SessionManager.swift */,
+				OBJ_70 /* TaskDelegate.swift */,
+				OBJ_71 /* Timeline.swift */,
+				OBJ_72 /* Validation.swift */,
 			);
-			name = tvOS;
-			sourceTree = "<group>";
+			name = "Alamofire 4.8.2";
+			path = .build/checkouts/Alamofire/Source;
+			sourceTree = SOURCE_ROOT;
 		};
-		67F59BE01AB9C5960018DA25 = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				67F59BEC1AB9C5960018DA25 /* Source */,
-				67F59BF91AB9C5970018DA25 /* Spec */,
-				677739D31ABD8A3100E7BC8E /* Fixture */,
-				677739C51ABD7AFC00E7BC8E /* Frameworks */,
-				67F59BEB1AB9C5960018DA25 /* Products */,
+				OBJ_8 /* SoundCloudKit */,
 			);
-			sourceTree = "<group>";
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
-		67F59BEB1AB9C5960018DA25 /* Products */ = {
+		OBJ_73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67F59BEA1AB9C5960018DA25 /* SoundCloudKit.framework */,
-				67F59BF51AB9C5970018DA25 /* SoundCloudKit-iOSTests.xctest */,
-				67F59C231AB9C8490018DA25 /* SoundCloudKit.framework */,
-				67F59C2D1AB9C84A0018DA25 /* SoundCloudKit-macOSTests.xctest */,
-				67E5EA361DCAC44A001CF873 /* SoundCloudKit.framework */,
-				67E5EA3E1DCAC44A001CF873 /* SoundCloudKit-tvOSTests.xctest */,
-				67E5EA521DCAC45C001CF873 /* SoundCloudKit.framework */,
+				"Alamofire::Alamofire::Product" /* Alamofire.framework */,
+				"PMKAlamofire::PMKAlamofire::Product" /* PMKAlamofire.framework */,
+				"ASWaveformPlayerView::ASWaveformPlayerView::Product" /* ASWaveformPlayerView.framework */,
+				"SoundCloudKit::SoundCloudKit::Product" /* SoundCloudKit.framework */,
+				"PromiseKit::PromiseKit::Product" /* PromiseKit.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		67F59BEC1AB9C5960018DA25 /* Source */ = {
+		OBJ_8 /* SoundCloudKit */ = {
 			isa = PBXGroup;
 			children = (
-				6777399D1ABC487C00E7BC8E /* SoundCloudKit-macOS.h */,
-				67E5EA381DCAC44A001CF873 /* SoundCloudKit-tvOS.h */,
-				67E5EA541DCAC45C001CF873 /* SoundCloudKit-watchOS.h */,
-				6777399E1ABC487C00E7BC8E /* SoundCloudKit-iOS.h */,
-				67F59C071AB9C5F00018DA25 /* Model */,
-				67F59C061AB9C5E50018DA25 /* Net */,
-				67F59BED1AB9C5960018DA25 /* Supporting Files */,
-				674293931EB9BAD300E95148 /* StringExtension.swift */,
+				OBJ_9 /* APIClient */,
+				OBJ_14 /* Ext */,
+				OBJ_16 /* Models */,
+				OBJ_25 /* PlayerVC */,
 			);
-			name = Source;
-			path = SoundCloudKit;
-			sourceTree = "<group>";
+			name = SoundCloudKit;
+			path = Sources/SoundCloudKit;
+			sourceTree = SOURCE_ROOT;
 		};
-		67F59BED1AB9C5960018DA25 /* Supporting Files */ = {
+		OBJ_9 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				6777399B1ABC487400E7BC8E /* Info.plist */,
+				OBJ_10 /* APIClient+Router.swift */,
+				OBJ_11 /* APIClient+fetch.swift */,
+				OBJ_12 /* APIClient+track.swift */,
+				OBJ_13 /* APIClient.swift */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		67F59BF91AB9C5970018DA25 /* Spec */ = {
-			isa = PBXGroup;
-			children = (
-				677739A31ABC488F00E7BC8E /* SoundCloudKit_MacTests.swift */,
-				677739A41ABC488F00E7BC8E /* SoundCloudKitTests.swift */,
-				67F59BFA1AB9C5970018DA25 /* Supporting Files */,
-				67773A0F1ABE5F7100E7BC8E /* UserSpec.swift */,
-				67773A121ABE602300E7BC8E /* TrackSpec.swift */,
-				677739EC1ABDAA5D00E7BC8E /* SpecHelper.swift */,
-				67773A211ABEA98A00E7BC8E /* PlaylistSpec.swift */,
-			);
-			name = Spec;
-			path = SoundCloudKitTests;
-			sourceTree = "<group>";
-		};
-		67F59BFA1AB9C5970018DA25 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				677739A11ABC488600E7BC8E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		67F59C061AB9C5E50018DA25 /* Net */ = {
-			isa = PBXGroup;
-			children = (
-				6736D01E1B86D32600CCDD80 /* APIClient.swift */,
-			);
-			name = Net;
-			sourceTree = "<group>";
-		};
-		67F59C071AB9C5F00018DA25 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				677739DB1ABD8B4D00E7BC8E /* Track.swift */,
-				677739D01ABD898B00E7BC8E /* User.swift */,
-				677739E11ABD9F7400E7BC8E /* App.swift */,
-				67773A151ABE7CC000E7BC8E /* Playlist.swift */,
-				6778C8611B87493500ED627F /* Comment.swift */,
-				67D41D141B8DCBD30082454F /* Activity.swift */,
-			);
-			name = Model;
+			path = APIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		67E5EA331DCAC44A001CF873 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67E5EA461DCAC44B001CF873 /* SoundCloudKit-tvOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67E5EA4F1DCAC45C001CF873 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67E5EA561DCAC45C001CF873 /* SoundCloudKit-watchOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59BE71AB9C5960018DA25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67E5EA5A1DCAC6AC001CF873 /* SoundCloudKit-iOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59C201AB9C8490018DA25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67E5EA5B1DCAC6B4001CF873 /* SoundCloudKit-macOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		67E5EA351DCAC44A001CF873 /* SoundCloudKit-tvOS */ = {
+		"ASWaveformPlayerView::ASWaveformPlayerView" /* ASWaveformPlayerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67E5EA471DCAC44B001CF873 /* Build configuration list for PBXNativeTarget "SoundCloudKit-tvOS" */;
+			buildConfigurationList = OBJ_83 /* Build configuration list for PBXNativeTarget "ASWaveformPlayerView" */;
 			buildPhases = (
-				67E5EA311DCAC44A001CF873 /* Sources */,
-				67E5EA321DCAC44A001CF873 /* Frameworks */,
-				67E5EA331DCAC44A001CF873 /* Headers */,
-				67E5EA341DCAC44A001CF873 /* Resources */,
+				OBJ_86 /* Sources */,
+				OBJ_89 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SoundCloudKit-tvOS";
-			productName = "SoundCloudKit-tvOS";
-			productReference = 67E5EA361DCAC44A001CF873 /* SoundCloudKit.framework */;
+			name = ASWaveformPlayerView;
+			productName = ASWaveformPlayerView;
+			productReference = "ASWaveformPlayerView::ASWaveformPlayerView::Product" /* ASWaveformPlayerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		67E5EA3D1DCAC44A001CF873 /* SoundCloudKit-tvOSTests */ = {
+		"ASWaveformPlayerView::SwiftPMPackageDescription" /* ASWaveformPlayerViewPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67E5EA4A1DCAC44B001CF873 /* Build configuration list for PBXNativeTarget "SoundCloudKit-tvOSTests" */;
+			buildConfigurationList = OBJ_91 /* Build configuration list for PBXNativeTarget "ASWaveformPlayerViewPackageDescription" */;
 			buildPhases = (
-				67E5EA3A1DCAC44A001CF873 /* Sources */,
-				67E5EA3B1DCAC44A001CF873 /* Frameworks */,
-				67E5EA3C1DCAC44A001CF873 /* Resources */,
-				67E5EA7F1DCACAC2001CF873 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67E5EA411DCAC44B001CF873 /* PBXTargetDependency */,
-			);
-			name = "SoundCloudKit-tvOSTests";
-			productName = "SoundCloudKit-tvOSTests";
-			productReference = 67E5EA3E1DCAC44A001CF873 /* SoundCloudKit-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		67E5EA511DCAC45C001CF873 /* SoundCloudKit-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67E5EA571DCAC45C001CF873 /* Build configuration list for PBXNativeTarget "SoundCloudKit-watchOS" */;
-			buildPhases = (
-				67E5EA4D1DCAC45C001CF873 /* Sources */,
-				67E5EA4E1DCAC45C001CF873 /* Frameworks */,
-				67E5EA4F1DCAC45C001CF873 /* Headers */,
-				67E5EA501DCAC45C001CF873 /* Resources */,
+				OBJ_94 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SoundCloudKit-watchOS";
-			productName = "SoundCloudKit-watchOS";
-			productReference = 67E5EA521DCAC45C001CF873 /* SoundCloudKit.framework */;
+			name = ASWaveformPlayerViewPackageDescription;
+			productName = ASWaveformPlayerViewPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		67F59BE91AB9C5960018DA25 /* SoundCloudKit-iOS */ = {
+		"Alamofire::Alamofire" /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67F59C001AB9C5970018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-iOS" */;
+			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				67F59BE51AB9C5960018DA25 /* Sources */,
-				67F59BE61AB9C5960018DA25 /* Frameworks */,
-				67F59BE71AB9C5960018DA25 /* Headers */,
-				67F59BE81AB9C5960018DA25 /* Resources */,
+				OBJ_100 /* Sources */,
+				OBJ_118 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SoundCloudKit-iOS";
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = "Alamofire::Alamofire::Product" /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_120 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */;
+			buildPhases = (
+				OBJ_123 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofirePackageDescription;
+			productName = AlamofirePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PMKAlamofire::PMKAlamofire" /* PMKAlamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_126 /* Build configuration list for PBXNativeTarget "PMKAlamofire" */;
+			buildPhases = (
+				OBJ_129 /* Sources */,
+				OBJ_131 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_134 /* PBXTargetDependency */,
+				OBJ_135 /* PBXTargetDependency */,
+			);
+			name = PMKAlamofire;
+			productName = PMKAlamofire;
+			productReference = "PMKAlamofire::PMKAlamofire::Product" /* PMKAlamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PMKAlamofire::SwiftPMPackageDescription" /* PMKAlamofirePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_138 /* Build configuration list for PBXNativeTarget "PMKAlamofirePackageDescription" */;
+			buildPhases = (
+				OBJ_141 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PMKAlamofirePackageDescription;
+			productName = PMKAlamofirePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"PromiseKit::PromiseKit" /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_143 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				OBJ_146 /* Sources */,
+				OBJ_162 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = "PromiseKit::PromiseKit::Product" /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PromiseKit::SwiftPMPackageDescription" /* PromiseKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_164 /* Build configuration list for PBXNativeTarget "PromiseKitPackageDescription" */;
+			buildPhases = (
+				OBJ_167 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKitPackageDescription;
+			productName = PromiseKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SoundCloudKit::SoundCloudKit" /* SoundCloudKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_170 /* Build configuration list for PBXNativeTarget "SoundCloudKit" */;
+			buildPhases = (
+				OBJ_173 /* Sources */,
+				OBJ_188 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_193 /* PBXTargetDependency */,
+				OBJ_194 /* PBXTargetDependency */,
+				OBJ_195 /* PBXTargetDependency */,
+				OBJ_196 /* PBXTargetDependency */,
+			);
+			name = SoundCloudKit;
 			productName = SoundCloudKit;
-			productReference = 67F59BEA1AB9C5960018DA25 /* SoundCloudKit.framework */;
+			productReference = "SoundCloudKit::SoundCloudKit::Product" /* SoundCloudKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		67F59BF41AB9C5970018DA25 /* SoundCloudKit-iOSTests */ = {
+		"SoundCloudKit::SwiftPMPackageDescription" /* SoundCloudKitPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67F59C031AB9C5970018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-iOSTests" */;
+			buildConfigurationList = OBJ_198 /* Build configuration list for PBXNativeTarget "SoundCloudKitPackageDescription" */;
 			buildPhases = (
-				67F59BF11AB9C5970018DA25 /* Sources */,
-				67F59BF21AB9C5970018DA25 /* Frameworks */,
-				67F59BF31AB9C5970018DA25 /* Resources */,
-				67773A071ABDB5B300E7BC8E /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67F59BF81AB9C5970018DA25 /* PBXTargetDependency */,
-			);
-			name = "SoundCloudKit-iOSTests";
-			productName = SoundCloudKitTests;
-			productReference = 67F59BF51AB9C5970018DA25 /* SoundCloudKit-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		67F59C221AB9C8490018DA25 /* SoundCloudKit-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67F59C361AB9C84A0018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-macOS" */;
-			buildPhases = (
-				67F59C1E1AB9C8490018DA25 /* Sources */,
-				67F59C1F1AB9C8490018DA25 /* Frameworks */,
-				67F59C201AB9C8490018DA25 /* Headers */,
-				67F59C211AB9C8490018DA25 /* Resources */,
+				OBJ_201 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SoundCloudKit-macOS";
-			productName = "SoundCloudKit-Mac";
-			productReference = 67F59C231AB9C8490018DA25 /* SoundCloudKit.framework */;
+			name = SoundCloudKitPackageDescription;
+			productName = SoundCloudKitPackageDescription;
 			productType = "com.apple.product-type.framework";
-		};
-		67F59C2C1AB9C84A0018DA25 /* SoundCloudKit-macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67F59C391AB9C84A0018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-macOSTests" */;
-			buildPhases = (
-				67F59C291AB9C84A0018DA25 /* Sources */,
-				67F59C2A1AB9C84A0018DA25 /* Frameworks */,
-				67F59C2B1AB9C84A0018DA25 /* Resources */,
-				677739F81ABDAE7100E7BC8E /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67773A041ABDB09D00E7BC8E /* PBXTargetDependency */,
-			);
-			name = "SoundCloudKit-macOSTests";
-			productName = "SoundCloudKit-MacTests";
-			productReference = 67F59C2D1AB9C84A0018DA25 /* SoundCloudKit-macOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		67F59BE11AB9C5960018DA25 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = Spincoaster;
-				TargetAttributes = {
-					67E5EA351DCAC44A001CF873 = {
-						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					67E5EA3D1DCAC44A001CF873 = {
-						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					67E5EA511DCAC45C001CF873 = {
-						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					67F59BE91AB9C5960018DA25 = {
-						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0900;
-					};
-					67F59BF41AB9C5970018DA25 = {
-						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0900;
-					};
-					67F59C221AB9C8490018DA25 = {
-						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0900;
-					};
-					67F59C2C1AB9C84A0018DA25 = {
-						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0900;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 67F59BE41AB9C5960018DA25 /* Build configuration list for PBXProject "SoundCloudKit" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SoundCloudKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 67F59BE01AB9C5960018DA25;
-			productRefGroup = 67F59BEB1AB9C5960018DA25 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67F59BE91AB9C5960018DA25 /* SoundCloudKit-iOS */,
-				67F59BF41AB9C5970018DA25 /* SoundCloudKit-iOSTests */,
-				67F59C221AB9C8490018DA25 /* SoundCloudKit-macOS */,
-				67F59C2C1AB9C84A0018DA25 /* SoundCloudKit-macOSTests */,
-				67E5EA351DCAC44A001CF873 /* SoundCloudKit-tvOS */,
-				67E5EA3D1DCAC44A001CF873 /* SoundCloudKit-tvOSTests */,
-				67E5EA511DCAC45C001CF873 /* SoundCloudKit-watchOS */,
+				"ASWaveformPlayerView::ASWaveformPlayerView" /* ASWaveformPlayerView */,
+				"ASWaveformPlayerView::SwiftPMPackageDescription" /* ASWaveformPlayerViewPackageDescription */,
+				"Alamofire::Alamofire" /* Alamofire */,
+				"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */,
+				"PMKAlamofire::PMKAlamofire" /* PMKAlamofire */,
+				"PMKAlamofire::SwiftPMPackageDescription" /* PMKAlamofirePackageDescription */,
+				"PromiseKit::PromiseKit" /* PromiseKit */,
+				"PromiseKit::SwiftPMPackageDescription" /* PromiseKitPackageDescription */,
+				"SoundCloudKit::SoundCloudKit" /* SoundCloudKit */,
+				"SoundCloudKit::SwiftPMPackageDescription" /* SoundCloudKitPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		67E5EA341DCAC44A001CF873 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67E5EA3C1DCAC44A001CF873 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67E5EA7C1DCACA77001CF873 /* playlist.json in Resources */,
-				67E5EA7D1DCACA77001CF873 /* track.json in Resources */,
-				67E5EA7E1DCACA77001CF873 /* user.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67E5EA501DCAC45C001CF873 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59BE81AB9C5960018DA25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59BF31AB9C5970018DA25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67773A051ABDB5A800E7BC8E /* track.json in Resources */,
-				67773A061ABDB5A800E7BC8E /* user.json in Resources */,
-				67773A1F1ABEA8CB00E7BC8E /* playlist.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59C211AB9C8490018DA25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				677739DA1ABD8AA200E7BC8E /* user.json in Resources */,
-				677739E01ABD8B8300E7BC8E /* track.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F59C2B1AB9C84A0018DA25 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67773A001ABDB00100E7BC8E /* track.json in Resources */,
-				67773A011ABDB00100E7BC8E /* user.json in Resources */,
-				67773A201ABEA8CB00E7BC8E /* playlist.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		67E5EA311DCAC44A001CF873 /* Sources */ = {
+		OBJ_100 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E5EA691DCAC9F1001CF873 /* APIClient.swift in Sources */,
-				67E5EA5E1DCAC9DF001CF873 /* Track.swift in Sources */,
-				67E5EA5F1DCAC9DF001CF873 /* User.swift in Sources */,
-				67E5EA601DCAC9DF001CF873 /* App.swift in Sources */,
-				674293961EB9BAD300E95148 /* StringExtension.swift in Sources */,
-				67E5EA611DCAC9DF001CF873 /* Playlist.swift in Sources */,
-				67E5EA621DCAC9DF001CF873 /* Comment.swift in Sources */,
-				67E5EA631DCAC9DF001CF873 /* Activity.swift in Sources */,
+				OBJ_101 /* AFError.swift in Sources */,
+				OBJ_102 /* Alamofire.swift in Sources */,
+				OBJ_103 /* DispatchQueue+Alamofire.swift in Sources */,
+				OBJ_104 /* MultipartFormData.swift in Sources */,
+				OBJ_105 /* NetworkReachabilityManager.swift in Sources */,
+				OBJ_106 /* Notifications.swift in Sources */,
+				OBJ_107 /* ParameterEncoding.swift in Sources */,
+				OBJ_108 /* Request.swift in Sources */,
+				OBJ_109 /* Response.swift in Sources */,
+				OBJ_110 /* ResponseSerialization.swift in Sources */,
+				OBJ_111 /* Result.swift in Sources */,
+				OBJ_112 /* ServerTrustPolicy.swift in Sources */,
+				OBJ_113 /* SessionDelegate.swift in Sources */,
+				OBJ_114 /* SessionManager.swift in Sources */,
+				OBJ_115 /* TaskDelegate.swift in Sources */,
+				OBJ_116 /* Timeline.swift in Sources */,
+				OBJ_117 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67E5EA3A1DCAC44A001CF873 /* Sources */ = {
+		OBJ_123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E5EA781DCACA6D001CF873 /* UserSpec.swift in Sources */,
-				67E5EA791DCACA6D001CF873 /* TrackSpec.swift in Sources */,
-				67E5EA7A1DCACA6D001CF873 /* SpecHelper.swift in Sources */,
-				67E5EA7B1DCACA6D001CF873 /* PlaylistSpec.swift in Sources */,
+				OBJ_124 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67E5EA4D1DCAC45C001CF873 /* Sources */ = {
+		OBJ_129 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E5EA861DCACB31001CF873 /* Track.swift in Sources */,
-				67E5EA871DCACB31001CF873 /* User.swift in Sources */,
-				67E5EA881DCACB31001CF873 /* App.swift in Sources */,
-				67E5EA891DCACB31001CF873 /* Playlist.swift in Sources */,
-				674293971EB9BAD300E95148 /* StringExtension.swift in Sources */,
-				67E5EA8A1DCACB31001CF873 /* Comment.swift in Sources */,
-				67E5EA8B1DCACB31001CF873 /* Activity.swift in Sources */,
-				67E5EA681DCAC9EB001CF873 /* APIClient.swift in Sources */,
+				OBJ_130 /* Alamofire+Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67F59BE51AB9C5960018DA25 /* Sources */ = {
+		OBJ_141 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67773A0C1ABDB73000E7BC8E /* Track.swift in Sources */,
-				67773A0D1ABDB73000E7BC8E /* User.swift in Sources */,
-				67D41D151B8DCBD30082454F /* Activity.swift in Sources */,
-				6778C8621B87493500ED627F /* Comment.swift in Sources */,
-				674293941EB9BAD300E95148 /* StringExtension.swift in Sources */,
-				67773A0E1ABDB73000E7BC8E /* App.swift in Sources */,
-				6736D01F1B86D32600CCDD80 /* APIClient.swift in Sources */,
-				67773A161ABE7CC000E7BC8E /* Playlist.swift in Sources */,
+				OBJ_142 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67F59BF11AB9C5970018DA25 /* Sources */ = {
+		OBJ_146 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				677739AE1ABC541200E7BC8E /* SoundCloudKitTests.swift in Sources */,
-				677739ED1ABDAA5D00E7BC8E /* SpecHelper.swift in Sources */,
-				67773A221ABEA98A00E7BC8E /* PlaylistSpec.swift in Sources */,
-				67773A131ABE602300E7BC8E /* TrackSpec.swift in Sources */,
-				67773A101ABE5F7100E7BC8E /* UserSpec.swift in Sources */,
+				OBJ_147 /* Box.swift in Sources */,
+				OBJ_148 /* Catchable.swift in Sources */,
+				OBJ_149 /* Configuration.swift in Sources */,
+				OBJ_150 /* CustomStringConvertible.swift in Sources */,
+				OBJ_151 /* Error.swift in Sources */,
+				OBJ_152 /* Guarantee.swift in Sources */,
+				OBJ_153 /* LogEvent.swift in Sources */,
+				OBJ_154 /* Promise.swift in Sources */,
+				OBJ_155 /* Resolver.swift in Sources */,
+				OBJ_156 /* Thenable.swift in Sources */,
+				OBJ_157 /* after.swift in Sources */,
+				OBJ_158 /* firstly.swift in Sources */,
+				OBJ_159 /* hang.swift in Sources */,
+				OBJ_160 /* race.swift in Sources */,
+				OBJ_161 /* when.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67F59C1E1AB9C8490018DA25 /* Sources */ = {
+		OBJ_167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				67E494181BAB0A0D00695CA2 /* Comment.swift in Sources */,
-				67E494191BAB0A0D00695CA2 /* Activity.swift in Sources */,
-				67E494171BAB0A0000695CA2 /* APIClient.swift in Sources */,
-				677739E31ABD9F7400E7BC8E /* App.swift in Sources */,
-				674293951EB9BAD300E95148 /* StringExtension.swift in Sources */,
-				677739D21ABD898B00E7BC8E /* User.swift in Sources */,
-				677739DD1ABD8B4D00E7BC8E /* Track.swift in Sources */,
-				67773A171ABE7CC000E7BC8E /* Playlist.swift in Sources */,
+				OBJ_168 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67F59C291AB9C84A0018DA25 /* Sources */ = {
+		OBJ_173 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				677739FF1ABDAFB200E7BC8E /* SoundCloudKit_MacTests.swift in Sources */,
-				677739EE1ABDAA5D00E7BC8E /* SpecHelper.swift in Sources */,
-				67773A231ABEA98A00E7BC8E /* PlaylistSpec.swift in Sources */,
-				67773A141ABE602300E7BC8E /* TrackSpec.swift in Sources */,
-				67773A111ABE5F7100E7BC8E /* UserSpec.swift in Sources */,
+				OBJ_174 /* APIClient+Router.swift in Sources */,
+				OBJ_175 /* APIClient+fetch.swift in Sources */,
+				OBJ_176 /* APIClient+track.swift in Sources */,
+				OBJ_177 /* APIClient.swift in Sources */,
+				OBJ_178 /* String+URL.swift in Sources */,
+				OBJ_179 /* Activity.swift in Sources */,
+				OBJ_180 /* ActivityList.swift in Sources */,
+				OBJ_181 /* ActivityType.swift in Sources */,
+				OBJ_182 /* App.swift in Sources */,
+				OBJ_183 /* Comment.swift in Sources */,
+				OBJ_184 /* Playlist.swift in Sources */,
+				OBJ_185 /* Track.swift in Sources */,
+				OBJ_186 /* User.swift in Sources */,
+				OBJ_187 /* PlayerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_202 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_87 /* ASWaveformPlayerView.swift in Sources */,
+				OBJ_88 /* AudioAnalyser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_95 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		67773A041ABDB09D00E7BC8E /* PBXTargetDependency */ = {
+		OBJ_134 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67F59C221AB9C8490018DA25 /* SoundCloudKit-macOS */;
-			targetProxy = 67773A031ABDB09D00E7BC8E /* PBXContainerItemProxy */;
+			target = "Alamofire::Alamofire" /* Alamofire */;
+			targetProxy = 0CA0D389231D817B009DA968 /* PBXContainerItemProxy */;
 		};
-		67E5EA411DCAC44B001CF873 /* PBXTargetDependency */ = {
+		OBJ_135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67E5EA351DCAC44A001CF873 /* SoundCloudKit-tvOS */;
-			targetProxy = 67E5EA401DCAC44B001CF873 /* PBXContainerItemProxy */;
+			target = "PromiseKit::PromiseKit" /* PromiseKit */;
+			targetProxy = 0CA0D38A231D817B009DA968 /* PBXContainerItemProxy */;
 		};
-		67F59BF81AB9C5970018DA25 /* PBXTargetDependency */ = {
+		OBJ_193 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67F59BE91AB9C5960018DA25 /* SoundCloudKit-iOS */;
-			targetProxy = 67F59BF71AB9C5970018DA25 /* PBXContainerItemProxy */;
+			target = "ASWaveformPlayerView::ASWaveformPlayerView" /* ASWaveformPlayerView */;
+			targetProxy = 0CA0D387231D817B009DA968 /* PBXContainerItemProxy */;
+		};
+		OBJ_194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PMKAlamofire::PMKAlamofire" /* PMKAlamofire */;
+			targetProxy = 0CA0D388231D817B009DA968 /* PBXContainerItemProxy */;
+		};
+		OBJ_195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Alamofire::Alamofire" /* Alamofire */;
+			targetProxy = 0CA0D38B231D817B009DA968 /* PBXContainerItemProxy */;
+		};
+		OBJ_196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PromiseKit::PromiseKit" /* PromiseKit */;
+			targetProxy = 0CA0D38C231D817B009DA968 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		67E5EA481DCAC44B001CF873 /* Debug */ = {
+		OBJ_121 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.SoundCloudKit-tvOS";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
-		67E5EA491DCAC44B001CF873 /* Release */ = {
+		OBJ_122 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.SoundCloudKit-tvOS";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
-		67E5EA4B1DCAC44B001CF873 /* Debug */ = {
+		OBJ_127 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = Spec/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.SoundCloudKit-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		67E5EA4C1DCAC44B001CF873 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = Spec/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.SoundCloudKit-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Release;
-		};
-		67E5EA581DCAC45C001CF873 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.SoundCloudKit-watchOS";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Debug;
-		};
-		67E5EA591DCAC45C001CF873 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "io.kumabook.SoundCloudKit-watchOS";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Release;
-		};
-		67F59BFE1AB9C5970018DA25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/PMKAlamofire_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PMKAlamofire;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = PMKAlamofire;
+			};
+			name = Debug;
+		};
+		OBJ_128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/PMKAlamofire_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PMKAlamofire;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = PMKAlamofire;
+			};
+			name = Release;
+		};
+		OBJ_139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/PromiseKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PromiseKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = PromiseKit;
+			};
+			name = Debug;
+		};
+		OBJ_145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/PromiseKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PromiseKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = PromiseKit;
+			};
+			name = Release;
+		};
+		OBJ_165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/SoundCloudKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundCloudKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SoundCloudKit;
+			};
+			name = Debug;
+		};
+		OBJ_172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/SoundCloudKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SoundCloudKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SoundCloudKit;
+			};
+			name = Release;
+		};
+		OBJ_199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		67F59BFF1AB9C5970018DA25 /* Release */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_CODE_COVERAGE = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		67F59C011AB9C5970018DA25 /* Debug */ = {
+		OBJ_84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/ASWaveformPlayerView_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ASWaveformPlayerView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ASWaveformPlayerView;
 			};
 			name = Debug;
 		};
-		67F59C021AB9C5970018DA25 /* Release */ = {
+		OBJ_85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/ASWaveformPlayerView_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ASWaveformPlayerView;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ASWaveformPlayerView;
 			};
 			name = Release;
 		};
-		67F59C041AB9C5970018DA25 /* Debug */ = {
+		OBJ_92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Spec/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		67F59C051AB9C5970018DA25 /* Release */ = {
+		OBJ_93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Spec/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		67F59C371AB9C84A0018DA25 /* Debug */ = {
+		OBJ_98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = macosx;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/Alamofire_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Alamofire;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Alamofire;
 			};
 			name = Debug;
 		};
-		67F59C381AB9C84A0018DA25 /* Release */ = {
+		OBJ_99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = macosx;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SoundCloudKit.xcodeproj/Alamofire_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Alamofire;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		67F59C3A1AB9C84A0018DA25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Spec/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		67F59C3B1AB9C84A0018DA25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Spec/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.spincoaster.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Alamofire;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67E5EA471DCAC44B001CF873 /* Build configuration list for PBXNativeTarget "SoundCloudKit-tvOS" */ = {
+		OBJ_120 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67E5EA481DCAC44B001CF873 /* Debug */,
-				67E5EA491DCAC44B001CF873 /* Release */,
+				OBJ_121 /* Debug */,
+				OBJ_122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67E5EA4A1DCAC44B001CF873 /* Build configuration list for PBXNativeTarget "SoundCloudKit-tvOSTests" */ = {
+		OBJ_126 /* Build configuration list for PBXNativeTarget "PMKAlamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67E5EA4B1DCAC44B001CF873 /* Debug */,
-				67E5EA4C1DCAC44B001CF873 /* Release */,
+				OBJ_127 /* Debug */,
+				OBJ_128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67E5EA571DCAC45C001CF873 /* Build configuration list for PBXNativeTarget "SoundCloudKit-watchOS" */ = {
+		OBJ_138 /* Build configuration list for PBXNativeTarget "PMKAlamofirePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67E5EA581DCAC45C001CF873 /* Debug */,
-				67E5EA591DCAC45C001CF873 /* Release */,
+				OBJ_139 /* Debug */,
+				OBJ_140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F59BE41AB9C5960018DA25 /* Build configuration list for PBXProject "SoundCloudKit" */ = {
+		OBJ_143 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67F59BFE1AB9C5970018DA25 /* Debug */,
-				67F59BFF1AB9C5970018DA25 /* Release */,
+				OBJ_144 /* Debug */,
+				OBJ_145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F59C001AB9C5970018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-iOS" */ = {
+		OBJ_164 /* Build configuration list for PBXNativeTarget "PromiseKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67F59C011AB9C5970018DA25 /* Debug */,
-				67F59C021AB9C5970018DA25 /* Release */,
+				OBJ_165 /* Debug */,
+				OBJ_166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F59C031AB9C5970018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-iOSTests" */ = {
+		OBJ_170 /* Build configuration list for PBXNativeTarget "SoundCloudKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67F59C041AB9C5970018DA25 /* Debug */,
-				67F59C051AB9C5970018DA25 /* Release */,
+				OBJ_171 /* Debug */,
+				OBJ_172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F59C361AB9C84A0018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-macOS" */ = {
+		OBJ_198 /* Build configuration list for PBXNativeTarget "SoundCloudKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67F59C371AB9C84A0018DA25 /* Debug */,
-				67F59C381AB9C84A0018DA25 /* Release */,
+				OBJ_199 /* Debug */,
+				OBJ_200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F59C391AB9C84A0018DA25 /* Build configuration list for PBXNativeTarget "SoundCloudKit-macOSTests" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "SoundCloudKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67F59C3A1AB9C84A0018DA25 /* Debug */,
-				67F59C3B1AB9C84A0018DA25 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_83 /* Build configuration list for PBXNativeTarget "ASWaveformPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_84 /* Debug */,
+				OBJ_85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_91 /* Build configuration list for PBXNativeTarget "ASWaveformPlayerViewPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_92 /* Debug */,
+				OBJ_93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_97 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_98 /* Debug */,
+				OBJ_99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 67F59BE11AB9C5960018DA25 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
