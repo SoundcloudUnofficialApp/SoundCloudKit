@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ASWaveformPlayerView",
+        "repositoryURL": "https://github.com/SoundcloudUnofficialApp/ASWaveformPlayerView",
+        "state": {
+          "branch": null,
+          "revision": "b5b1303be23a903046fdc39c98b282bb24991e79",
+          "version": "0.1.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
